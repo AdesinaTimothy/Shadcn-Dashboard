@@ -1,7 +1,9 @@
 
 
+import AppLineComp from '@/components/AppLineComp'
 import CardList from '@/components/CardList'
 import EditUser from '@/components/EditUser'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 import { Button } from '@/components/ui/button'
@@ -139,9 +141,27 @@ const SingleUserPage = () => {
         {/* RIGHT SIDE */}
         <div className="w-full xl:w-2/3 space-y-6">
             {/* USER CARD CONTAINER */}
-            <div className="bg-primary-foreground p-4 rounded-lg">User Card</div>
+            <div className="bg-primary-foreground p-4 rounded-lg space-y-2">
+              <div className="flex items-center gap-2">
+                <Avatar className="size-12">
+                  <AvatarImage src="https://github.com/shadcn.png"/>
+                  <AvatarFallback>JD</AvatarFallback>
+                </Avatar>
+                <h1 className="text-xl font-semibold">Timothy Adesina</h1>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quos earum? Laborum, dicta? 
+                Alias a quis maxime hic aperiam? Autem illo inventore voluptates quaerat distinctio dolor accusamus. 
+                Assumenda nobis impedit dolorum perferendis maxime autem corrupti accusamus 
+                eveniet eum aliquid excepturi perspiciatis, porro totam nemo similique quo illo 
+                dolores ullam necessitatibus!
+              </p>
+            </div>
             {/* CHART CONTAINER */}
-            <div className="bg-primary-foreground p-4 rounded-lg">Chart</div>
+            <div className="bg-primary-foreground p-4 rounded-lg">
+              <h1>User Activity</h1>
+              <AppLineComp />
+            </div>
         </div>
     </div>
     </div>
