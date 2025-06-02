@@ -1,10 +1,10 @@
 "use client"
 
-import {Calendar, ChevronDown, ChevronDownIcon, ChevronUp, Home, Inbox, Plus, PlusIcon, Projector, Search, Settings, User2,} from "lucide-react"
+import {Calendar, ChevronDownIcon, ChevronUp, Home, Inbox, Plus, PlusIcon, Projector, Search, Settings, User2,} from "lucide-react"
 import { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupAction, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuBadge, SidebarMenuButton, SidebarMenuItem, SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem, SidebarSeparator } from "./sidebar";
 import Link from "next/link";
 import Image from "next/image";
-import { DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./dropdown-menu";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./dropdown-menu";
 import {Collapsible, CollapsibleContent, CollapsibleTrigger} from "@/components/ui/collapsible"
   
 
@@ -22,12 +22,12 @@ const items = [
     },
     {
       title: "Inbox",
-      url: "#",
+      url: "/users",
       icon: Inbox,
     },
     {
       title: "Calendar",
-      url: "#",
+      url: "/user",
       icon: Calendar,
     },
     {

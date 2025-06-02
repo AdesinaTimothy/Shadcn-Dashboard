@@ -12,8 +12,8 @@ import { SidebarTrigger, useSidebar } from './sidebar'
 
 const Navbar = () => {
 
-     const {theme, setTheme} = useTheme();
-     const {toggleSidebar} = useSidebar();
+     const {setTheme} = useTheme();
+    useSidebar();
      
 
   return (
