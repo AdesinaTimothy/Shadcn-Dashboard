@@ -53,7 +53,7 @@ const EditUser = () => {
                             <FormMessage />
                         </FormItem>   
                         )} />
-                        <FormField control={form.control} name="username" render = {({field}) => (
+                        <FormField control={form.control} name="email" render = {({field}) => (
                             <FormItem>
                             <FormLabel>Email</FormLabel>
                             <FormControl>
@@ -65,7 +65,7 @@ const EditUser = () => {
                             <FormMessage />
                         </FormItem>   
                         )} />
-                        <FormField control={form.control} name="username" render = {({field}) => (
+                        <FormField control={form.control} name="phone" render = {({field}) => (
                             <FormItem>
                             <FormLabel>Phone</FormLabel>
                             <FormControl>
@@ -89,13 +89,13 @@ const EditUser = () => {
                             <FormMessage />
                         </FormItem>   
                         )} />
-                        <FormField control={form.control} name="username" render = {({field}) => (
+                        <FormField control={form.control} name="location" render = {({field}) => (
                             <FormItem>
                             <FormLabel>Role</FormLabel>
                             <FormControl>
                             <Select>
                                 <SelectTrigger >
-                                    <SelectValue placeholder="Role" />
+                                    <SelectValue placeholder="role" />
                                 </SelectTrigger>
                                 <SelectContent>
                                     <SelectItem value="admin">Admin</SelectItem>
