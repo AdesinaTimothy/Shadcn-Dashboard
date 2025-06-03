@@ -4,7 +4,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { ColumnDef } from "@tanstack/react-table"
 import clsx from "clsx";
-import { table } from "console";
+// import { table } from "console";
 import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 
 export type Payment = {
