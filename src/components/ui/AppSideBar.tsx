@@ -1,6 +1,6 @@
 "use client"
 
-import {Calendar, BadgeDollarSign , ChevronDownIcon, ChevronUp, Home, Inbox, Plus, PlusIcon, Projector, Search, Settings, User2,} from "lucide-react"
+import {BadgeDollarSign , ChevronDownIcon, ChevronUp, Home, Inbox, Plus, PlusIcon, Projector, Search, Settings, User2,} from "lucide-react"
 import { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupAction, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuBadge, SidebarMenuButton, SidebarMenuItem, SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem, SidebarSeparator } from "./sidebar";
 import Link from "next/link";
 import Image from "next/image";
