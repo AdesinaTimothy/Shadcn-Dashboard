@@ -52,7 +52,7 @@ const AppSideBar = () => {
                     <SidebarMenuButton asChild>
                         <Link href="/">
                         <Image src= "/vercel.svg" alt="logo" width={20} height={20}/>
-                        <span>Vercel</span>
+                        <span>TimoBest</span>
                         </Link>
                     </SidebarMenuButton>
                 </SidebarMenuItem>
