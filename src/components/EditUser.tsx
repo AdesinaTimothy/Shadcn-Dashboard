@@ -77,7 +77,7 @@ const EditUser = () => {
                             <FormMessage />
                         </FormItem>   
                         )} />
-                        <FormField control={form.control} name="username" render = {({field}) => (
+                        <FormField control={form.control} name="location" render = {({field}) => (
                             <FormItem>
                             <FormLabel>Location</FormLabel>
                             <FormControl>
@@ -89,11 +89,11 @@ const EditUser = () => {
                             <FormMessage />
                         </FormItem>   
                         )} />
-                        <FormField control={form.control} name="location" render = {({field}) => (
+                        <FormField control={form.control} name="role" render = {({field}) => (
                             <FormItem>
                             <FormLabel>Role</FormLabel>
                             <FormControl>
-                            <Select>
+                            <Select onValueChange={field.onChange} defaultValue={field.value}>
                                 <SelectTrigger >
                                     <SelectValue placeholder="role" />
                                 </SelectTrigger>
